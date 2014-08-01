@@ -114,13 +114,13 @@ void handle_init(void) {
   layer_add_child(window_layer, line_layer);
 
   for (i = 0; i < PROGRAM_LAYERS; i++) {
-    text_program_layers[i] = text_layer_create(GRect(34, 70 + i*32, 110, 28));
+    text_program_layers[i] = text_layer_create(GRect(34, 70 + i*32, 110, 32));
     text_layer_set_text_color(text_program_layers[i], GColorWhite);
     text_layer_set_background_color(text_program_layers[i], GColorClear);
     text_layer_set_font(text_program_layers[i], fonts_get_system_font(FONT_KEY_GOTHIC_14));
     layer_add_child(window_layer, text_layer_get_layer(text_program_layers[i]));
 
-    text_start_layers[i] = text_layer_create(GRect(0, 70 + i*32, 34, 14));
+    text_start_layers[i] = text_layer_create(GRect(0, 70 + i*32, 34, 16));
     text_layer_set_text_color(text_start_layers[i], GColorWhite);
     text_layer_set_background_color(text_start_layers[i], GColorClear);
     text_layer_set_font(text_start_layers[i], fonts_get_system_font(FONT_KEY_GOTHIC_14));
