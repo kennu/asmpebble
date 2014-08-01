@@ -23,7 +23,7 @@ void update_programs(time_t now) {
   struct tm *tm;
 
   for (program = programs; program->title && layer < PROGRAM_LAYERS; program++) {
-    if (program->start <= now && now <= program->end) {
+    if (program->start <= now && now <= program->end && program->end-program->start < 7200) {
       tm = localtime(&program->start);
       strftime(start_text[layer], 6, "%R", tm);
       text_layer_set_text(text_start_layers[layer], start_text[layer]);
