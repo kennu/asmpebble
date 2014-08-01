@@ -1,4 +1,4 @@
-# Assembly Schedule Watchface for Pebble
+# Assembly Watchface for Pebble
 Kenneth Falck <kennu@iki.fi> 2014
 
 ## Installation
