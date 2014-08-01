@@ -1,0 +1,17 @@
+{
+  "uuid": "ed9191dd-58cc-49c0-95ab-454417bde23f",
+  "shortName": "Assembly",
+  "longName": "Assembly Schedule",
+  "companyName": "Kenneth Falck",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}
