@@ -3,7 +3,7 @@ Kenneth Falck <kennu@iki.fi> 2014
 
 ## Description
 
-Shows the current Assembly.org event schedule on Pebble.
+Shows the current [Assembly.org](http://assembly.org) event schedule on Pebble.
 
 ![Screenshot](https://raw.githubusercontent.com/kennu/asmpebble/master/screenshots/asmpebble.jpg)
 
